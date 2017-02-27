@@ -1,9 +1,9 @@
 if &compatible
   set nocompatible
 endif
-set runtimepath+=.vim/dein.vim
+set runtimepath+=.cache/dein/repos/github.com/Shougo/dein.vim
 
-call dein#begin(expand('.vim/'))
+call dein#begin(expand('.cache/dein'))
 
 call dein#add('Shougo/vimproc.vim', {'build' : 'make'})
 
