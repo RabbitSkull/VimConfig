@@ -53,7 +53,7 @@ call dein#add('vim-scripts/AnsiEsc.vim')
 call dein#add('bronson/vim-trailing-whitespace')
 
 call dein#end()
-call dein#sav_state()
+call dein#save_state()
 
 " Unit.vimの設定
 """"""""""""""""""""""""""""""
