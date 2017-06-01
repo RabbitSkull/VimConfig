@@ -52,6 +52,9 @@ call dein#add('vim-scripts/AnsiEsc.vim')
 " 行末の半角スペースを可視化
 call dein#add('bronson/vim-trailing-whitespace')
 
+" Gitの簡略のためのプラグインを追加
+call dein#add('tpope/vim-fugitive')
+
 call dein#end()
 call dein#save_state()
 
