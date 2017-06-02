@@ -89,6 +89,8 @@ syntax enable
 set fenc=utf-8
 " バックアップファイルを作らない
 set nobackup
+" undoファイルの保存先の指定
+set undodir=
 " スワップファイルを作らない
 set noswapfile
 " 編集中のファイルが変更されたら自動で読み直す
