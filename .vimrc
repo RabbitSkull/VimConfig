@@ -99,6 +99,8 @@ set autoread
 set hidden
 " 入力中のコマンドをステータスに表示する
 set showcmd
+" windows用？yankからクリップボードにコピー
+set clipboard=unnamed,autoselect
 
 " view
 " 行番号を表示
