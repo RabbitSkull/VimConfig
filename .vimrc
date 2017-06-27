@@ -28,6 +28,12 @@ call dein#add('Shougo/neomru.vim')
 call dein#add('Shougo/neosnippet')
 call dein#add('Shougo/neosnippet-snippets')
 
+" カラースキーマ(ダークテーマ)
+call dein#add('tomasr/molokai')
+
+" コマンドラインのテーマ
+call dein#add('itchyny/lightline.vim')
+
 " ファイルオープンを便利に
 call dein#add('Shougo/unite.vim')
 
